@@ -28,26 +28,42 @@ footer{
     color: #000000;
 }
 
-.quadradoMaior {
-    width: 300px;
-    height: 400px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+h1 {
+    font-size: 24px;
+    color: #000000;
+    padding-left: 80px;    
+    text-align: space-around;
+    background-color: aqua;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+     margin-bottom: 0;
 }
 
 .quadradoMedio {
-    width: 200px;
-    height: 350px;
+    width: 400px;
+    height: 550px;
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.quadradoMenor {
+    width: 300px;
+    height: 350px;
+    background-color: #2C7DFA;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
